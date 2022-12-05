@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPHOUSE</title>
+
+    <!--? Favicon -->
+    <link id="favicon" rel="shortcut icon" href="../../../img/logo/icon.png" type="image/x-png">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    
+    <!-- CSS Libraries -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="../../../lib/slick/slick.css" rel="stylesheet">
+    <link href="../../../libs/slick/slick-theme.css" rel="stylesheet">
+    <link href="../../../lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Template Stylesheet -->
+    <link href="../../../css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Header Start -->
+        <div class="header">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-2" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">
+                        <div class="brand">
+                            <a href="../../../index.html">
+                                <img src="../../../img/logo/SHOPHOUSE-2-removebg.png" alt="Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="topbar" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000" data-aos-delay="500">
+                            <div class="topbar-col">
+                                <a href="tel:+62 81227648127"><i class="fa fa-phone-alt"></i>+62 81227648127</a>
+                            </div>
+                            <div class="topbar-col">
+                                <a href="mailto:shophousenew@gmail.com?subject=Hallo%20Admin%20SHOPHOUSE" target="_blank"><i class="fa fa-envelope"></i>shophousenew@gmail.com</a>
+                            </div>
+                            <div class="topbar-col">
+                                <div class="topbar-social">
+                                    <a href="https://api.whatsapp.com/send?phone=+6281267913418&text=Hallo%20Admin%20SHOPHOUSE" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a href="https://www.instagram.com/shop_house.app/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://web.facebook.com/people/shophouse/100086976440125/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                                    <a href="https://tokopedia.com/shophouseapp/" target="_blank"><i class="fa fa-shopping-bag"></i></a>
+                                    <a href="https://blibli.app.link/0AntZEyEGub" target="_blank"><i class="fa fa-shopping-basket"></i></a>
+                                    <a href="https://shopee.co.id/shophouseapp" target="_blank"><i class="fa fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="navbar navbar-expand-lg bg-light navbar-light">
+                            <a href="#" class="navbar-brand">MENU</a>
+                            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                                <div class="navbar-nav ml-auto">
+                                    <a href="../../../index.html" class="nav-item nav-link">Beranda</a>
+                                    <div class="btn-group drop">
+                                        <a href="#" title="" class="dropdown-toggle nav-item nav-link" data-toggle="dropdown" role="button" 
+                                        aria-haspopup="true" aria-expanded="false">Blog</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="nav-item nav-link" href="../../blog/about.html">Tentang Kami</a></li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li><a class="nav-item nav-link" href="../../blog/portfolio.html">Galeri</a></li>
+                                            <li><a class="nav-item nav-link" href="../../blog/mitra.html">Mitra & Klien</a></li>
+                                            <li><a class="nav-item nav-link" href="../../blog/pembayaran.html">Pembayaran</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="btn-group drop">
+                                        <a href="#" title="" class="dropdown-toggle nav-item nav-link" data-toggle="dropdown" role="button" 
+                                        aria-haspopup="true" aria-expanded="false">Layanan</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="nav-item nav-link" href="../../layanan/website.html">Website</a></li>
+                                            <li><a class="nav-item nav-link" href="../../layanan/e-commerce.html">E-Commerce</a></li>
+                                            <li><a class="nav-item nav-link" href="../../layanan/logo.html">Brand & Logo</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="btn-group drop">
+                                        <a href="#" title="" class="dropdown-toggle nav-item nav-link active" data-toggle="dropdown" role="button" 
+                                        aria-haspopup="true" aria-expanded="false">Produk<span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="nav-item nav-link" href="../kaligrafi.html">Kaligrafi</a></li>
+                                            <li><a class="nav-item nav-link" href="../lukisan.html">Lukisan</a></li>
+                                            <li><a class="nav-item nav-link active" href="../tembakau.html">Tembakau</a></li>
+                                            <li><a class="nav-item nav-link" href="../kopi.html">Kopi Gayo</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="btn-group drop">
+                                        <a href="#" title="" class="dropdown-toggle nav-item nav-link" data-toggle="dropdown" role="button" 
+                                        aria-haspopup="true" aria-expanded="false">Bantuan</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="nav-item nav-link" href="../../bantuan/faq.html">FAQs</a></li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li><a class="nav-item nav-link" href="../../bantuan/services.html">Semua Layanan</a></li>
+                                            <li><a class="nav-item nav-link" href="../../bantuan/produk.html">Semua Produk</a></li>
+                                            <li><a class="nav-item nav-link" href="../../bantuan/syarat.html">Syarat & Ketentuan</a></li>
+                                        </ul>
+                                    </div>
+                                    <a href="../../contact.html" class="nav-item nav-link">Kontak</a>
+                                    <a href="https://github.com/ramadhanadm/ramadhanadm-portfolio/raw/master/assets/CV-RAMADHANA-DINATA-M..pdf"
+                                    class="btn"><i class="fa fa-download"></i>Download</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+        <!-- Page Header Start -->
+        <div class="page-header">
+            <div class="container" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-duration="1500">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Produk</h2>
+                    </div>
+                    <div class="col-12">
+                        <a href="">SHOPHOUSE</a>
+                        <a href="">Tembakau</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Header End -->
+
+        <div class="testimonial">
+            <div class="container" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500" data-aos-delay="500">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-7">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="7000">
+                                        <img src="../../../img/produk/tembakau/kuning-1.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="5000">
+                                        <img src="../../../img/produk/tembakau/kuning-2.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="5000">
+                                        <img src="../../../img/produk/tembakau/kuning-3.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="card-body">
+                                <h5 class="card-title rincian-produk">Tembakau Kuning</h5>
+                                <p class="card-text rincian"><medium class="text-muted">Rp. 30.000 - Rp. 210.000</medium></p>
+                                <div class="card">
+                                    <h5 class="card-header rinci">Pesan Sekarang</h5>
+                                    <div class="card-body">
+                                        <p class="card-text">Tersedia berbagai ukuran kemasan beserta harga produk</p>
+                                        <div class="table-responsive">
+                                            <table class="table" id="harga">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Ukuran Kemasan</th>
+                                                        <th>Harga</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <p>100 gram</p>
+                                                        </td>
+                                                        <td style="padding-left: 30px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                                                            <input type="text" value="Rp. 30.000" class="price form-control" 
+                                                            style="width: 120px;" disabled>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <p>250 gram</p>
+                                                        </td>
+                                                        <td style="padding-left: 30px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                                                            <input type="text" value="Rp. 70.000" class="price form-control" 
+                                                            style="width: 120px;" disabled>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <p>500 gram</p>
+                                                        </td>
+                                                        <td style="padding-left: 30px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                                                            <input type="text" value="Rp. 120.000" class="price form-control" 
+                                                            style="width: 120px;" disabled>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <p>1 kilogram</p>
+                                                        </td>
+                                                        <td style="padding-left: 30px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                                                            <input type="text" value="Rp. 210.000" class="price form-control" 
+                                                            style="width: 120px;" disabled>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <a href="#" class="btn btn-success">
+                                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+
+                                            gvaeTAAAByElEQVQ4ja2UvWsUYRDGf3PeoUVQA4KK0corBQsLCYgQBElhEEwRhVhZiaCFhcRGbETETrT0DzgCJ4QgipDqQP
+                                            xAyUUEBcEoKCgYtNAj8WeR92Rd9z7ETDPPzD7z7Dszuy+sscW/FqhDwATwBngBjAMvI6IGUEqkDeqgWu4hNgjMAp+BUaAOv
+                                            AUm1bNZ4kX1vvpc3dFF8LB6PROvS76q3isqOK2e6yK4TZ1Xt+by19QpyM1Q3QtMAaeAK0DRCPan/EhEfFQvA5NANSKW8wXz
+                                            wB7gG1DrIFgDdgGz6hwwBFQS90/BiFhRF4GdETGXTl2OiGX1aETUM/F74AhwG2hFxPdOc7qkHk94s3o34WbyD3P8GXVfOy4
+                                            VaDaA4YQrwPrc84GMWBUYiIjHhadLpI3qo4RL6oGEbyZ/MMO9oY53FMsQn6ibenC2qM32t9i2co40AlxldXNNtdVFswVciI
+                                            iVTm8sqQvq9p4tdLHsUirAT+DD/wj+bjkifqh3gAfqqz7rb0XEs64Mdbe6qJ5MyzmjHlLH1HfqieTHihb3168VEa/Vr6zed
+                                            Z+ApxHRSFfXF2ABWAIaEbHUVx/qsDqtns/lj6l1daIvobWwX/4iOapvS+GTAAAAAElFTkSuQmCC"> Pesan Via WA SHOPHOUSE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="tab" href="#home">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                            </svg> Spesifikasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#profile">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-bounding-box" viewBox="0 0 16 16">
+                            <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z"/>
+                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                            </svg> Deskripsi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#contact">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                            </svg> Kontak</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="home">
+                        <div class="row border g-0 rounded shadow-sm">
+                            <div class="col m-4">
+                                <h4>Spesifikasi</h4>
+                                <p>
+                                    Tembakau Gayo khas Aceh kualitas super premium adalah tembakau dengan proses pemilihan daun yang 
+                                    hanya berkualitas terbaik saja dengan penanganan yang berbeda ala teknik-teknik tertentu dari 
+                                    petani tembakau di Aceh, sehingga rasa lebih halus, enak, warna lebih terjaga, tahan lama dan 
+                                    tetap nendang dengan aromanya yang khas.
+                                </p>
+                                <p>PENTING Catatan mengenai Tembakau :
+                                    <ol type="1">
+                                        <li>Silakan kontak kami terlebih dahulu jika ingin menanyakan stock, karena kami mengambil 
+                                            stock langsung dari petani di aceh agar kualitas dan rasa tetap terjaga.
+                                        </li>
+                                        <li>Packing standar kami adalah menggunakan plastik, jika ingin menggunakan bubble wrap akan 
+                                            dikenakan biaya tambahan.
+                                        </li>
+                                        <li>Ukuran kemasan standar produk kami adalah 100 gram, 250 gram, 500 gram dan 1 kilogram.</li>
+                                        <li>Gratis 1 kertas papir / ukuran kemasan.</li>
+                                        <li>Jika ingin memesan lebih dari ukuran kemasan standar kami, silakan kontak kami terlebih 
+                                            dahulu.
+                                        </li>
+                                    </ol>
+                                </p>
+                                <p>
+                                    Sekali lagi aroma yang dihasilkan murni dari tembakau itu sendiri, legal tanpa campuran apapun. 
+                                    SHOPHOUSE mengutamakan kualitas dari produk, harga mengikuti kualitas. Dijamin 100% Aman sampai 
+                                    Rumah Anda. Jangan tergiur dengan harga murah, dari dulu sampai sekarang harga tidak pernah 
+                                    membohongi kualitas dari produk, kepuasan Anda adalah prioritas kami. Terimakasih. Selamat Berbelanja.
+                                </p>
+                            </div>
+                            <!-- <div class="col-auto">
+                                <img src="images/home.jpg" class="img-thumbnail dimension">
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="profile">
+                        <div class="row border g-0 rounded shadow-sm">
+                            <div class="col m-4">
+                                <h4>Deskripsi</h4>
+                                <p>
+                                    Agar tidak gagal faham harap dibaca sebelum memesan :
+                                </p>
+                                <p>
+                                    <ol type="1">
+                                        <li>Pengiriman langsung dari Aceh Gayo menggunakan jasa ekspedisi yang cepat. Sehingga 
+                                            kualitas tetap terjaga (musim/cuaca sangat berpengaruh pada kualitas tembakau).</li>
+                                        <li>Kualitas tembakau bukan hanya dari warnanya saja melainkan dari aromanya yang khas 
+                                            dan rasanya yang nendang.</li>
+                                        <li>Untuk apa tembakau yang warnanya masih fresh kalau aroma dan rasanya kurang mantap.</li>
+                                        <li>Biaya Kirim ditanggung pembeli kecuali ada kesepakatan dengan penjual sebelumnya.</li>
+                                        <li>Anda Bisa Transaksi Via Marketplace (Shopee, Tokopedia, Lazada, Blibli, Jd.id) atau 
+                                            Via Pribadi.</li>
+                                        <li>Untuk sistem Transaksi Pemesanan Via Pribadi, Deposit 50%, setelah Barang siap Kirim Pelunasan 
+                                            dan Pembayaran ongkos Kirim.</li>
+                                        <li>Anda Bisa Melakukan sistem pembayaran COD melalui Marketplace (Shopee, Tokopedia, 
+                                            Lazada, Blibli, Jd.id).</li>
+                                        <li>Untuk Transaksi Pemesanan Via Pribadi dapat menggunakan Metode Online Payment atau 
+                                            Transfer Bank yang tertera di halaman Pembayaran (transaksi).</li>
+                                        <li>Anda bisa hubungi dan temukan di media sosial kami :
+                                            <ul>
+                                                <li>WA Business : <a href="https://api.whatsapp.com/send?phone=+6281267913418&text=Hallo%20Admin%20SHOPHOUSE"
+                                                    target="_blank">+6281267913418</a></li>
+                                                <li>Instagram : <a href="https://www.instagram.com/shop_house.app/" target="_blank">SHOPHOUSE</a></li>
+                                                <li>Facebook : <a href="https://web.facebook.com/people/shophouse/100086976440125/" target="_blank">SHOPHOUSE</a></li>
+                                                <li>Tiktok : <a href="https://tiktok.com/@shophouseapp" target="_blank">SHOPHOUSE</a></li>
+                                                <li>Email : <a href="mailto:shophousenew@gmail.com?subject=Hallo%20Admin%20SHOPHOUSE" target="_blank"
+                                                    >shophousenew@gmail.com</a></li>
+                                                <li>Website : <a href="https://shophouse.vercel.app" target="_blank">www.shophouse.vercel.app</a></li>
+                                            </ul>
+                                        </li>
+                                    </ol>
+                                </p>
+                            </div>
+                            <!-- <div class="col-auto">
+                                <img src="images/profile.jpg" class="img-thumbnail dimension">
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="contact">
+                        <div class="row border g-0 rounded shadow-sm">
+                            <div class="col m-4">
+                                <h4>Pemesanan</h4>
+                                <p>
+                                    Kenapa Anda Harus beli pada kami ?
+                                </p>
+                                <p>
+                                    <ol type="1">
+                                        <li>Kami mengambil stock Langsung dari petani tembakau di Aceh Gayo.</li>
+                                        <li>Kualitas Super Premium merupakan kualitas tertinggi dari tembakau dan pasti terjaga keasliannya.</li>
+                                        <li>Satu satunya yang berani menjamin Kualitas dan Bergaransi sampai rumah Anda 100% Aman.</li>
+                                        <li>Workshop kami di Ds. Sentang Kec. Blangkejeren Kab. Gayo Lues Prov. Aceh, Indonesia - 24653.</li>
+                                        <li>Semua gambar dan video yang kami pajang adalah 100% real picture kami, Awas hati-hati dengan 
+                                            gambar seperti yang kami upload dengan harga yang lebih murah. Be smart buyer.</li>
+                                        <li>Pengiriman bisa menggunakan J&T, JNE, Anteraja, SiCepat, J&T Cargo, JNE Trucking, Indah Logistik 
+                                            Cargo dan ID Express.</li>
+                                        <li>Bisa COD diluar Marketplace, Syarat & Ketentuan berlaku.</li>
+                                        <li>Atau Transaksi Via Marketplace :
+                                            <ul>
+                                                <a href="https://shopee.co.id/shophouseapp" target="_blank"><li>Shopee</li></a>
+                                                <a href="https://tokopedia.com/shophouseapp/" target="_blank"><li>Tokopedia</li></a>
+                                                <a href="https://s.lazada.co.id/s.RNrfU" target="_blank"><li>Lazada</li></a>
+                                                <a href="https://blibli.app.link/mRsgmfhtGub" target="_blank"><li>Blibli</li></a>
+                                                <a href="https://3.jd.id/-1000jtHG" target="_blank"><li>Jd.id</li></a>
+                                            </ul>
+                                        </li>
+                                    </ol>
+                                </p>
+                            </div>
+                            <!-- <div class="col-auto">
+                                <img src="images/contact.jpg" class="img-thumbnail dimension">
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col m-12">
+                    <h3 style="font-weight: bold; padding-top: 50px;">Produk Lainnya</h3>
+                </div>
+
+                <div class="row row-cols-2 row-cols-md-4 g-4">
+                    <div class="col detail-produk">
+                        <a href="../kopi/peaberry.html">
+                            <div class="card h-100">
+                                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="5000">
+                                            <img src="../../../img/produk/kopi/peaberry-1.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="5000">
+                                            <img src="../../../img/produk/kopi/peaberry-2.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="5000">
+                                            <img src="../../../img/produk/kopi/peaberry-3.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Arabika Peaberry</h5>
+                                </div>
+                                <div class="card-footer" style="text-align: center; font-weight: bold;  
+                                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                                    <medium class="text-muted">Rp. 75.000 - Rp. 260.000</medium>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col detail-produk">
+                        <a href="../kaligrafi/kapal.html">
+                            <div class="card h-100">
+                                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="5000">
+                                            <img src="../../../img/produk/kaligrafi/kapal-1.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="5000">
+                                            <img src="../../../img/produk/kaligrafi/kapal-2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="5000">
+                                            <img src="../../../img/produk/kaligrafi/kapal-3.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Kaligrafi Ayat Kursi (Kapal)</h5>
+                                </div>
+                                <div class="card-footer" style="text-align: center; font-weight: bold;  
+                                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                                    <medium class="text-muted">Rp. 1.300.000 - Rp. 1.450.000</medium>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col detail-produk">
+                        <a href="../lukisan/kabah.html">
+                            <div class="card h-100">
+                                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="5000">
+                                            <img src="../../../img/produk/lukisan/ka'bah-1.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="5000">
+                                            <img src="../../../img/produk/lukisan/ka'bah-2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="5000">
+                                            <img src="../../../img/produk/lukisan/ka'bah-3.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Lukisan Pemandangan (Ka'bah)</h5>
+                                </div>
+                                <div class="card-footer" style="text-align: center; font-weight: bold;  
+                                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                                    <medium class="text-muted">Rp. 1.250.000 - Rp. 1.400.000</medium>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col detail-produk">
+                        <a href="./merah.html">
+                            <div class="card h-100">
+                                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="5000">
+                                            <img src="../../../img/produk/tembakau/merah-1.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="5000">
+                                            <img src="../../../img/produk/tembakau/merah-2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="5000">
+                                            <img src="../../../img/produk/tembakau/merah-3.png" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Tembakau Merah</h5>
+                                </div>
+                                <div class="card-footer" style="text-align: center; font-weight: bold;  
+                                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                                    <medium class="text-muted">Rp. 30.000 - Rp. 210.000</medium>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Call to Action Start -->
+        <div class="call-to-action">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-8" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+                        <h2 class="typing-text">Layanan Pelanggan</h2>
+                        <p>
+                            SHOPHOUSE akan selalu siap membantu, SHOPHOUSE ada untuk anda.
+                        </p>
+                    </div>
+                    <div class="col-md-2" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+                        <a class="btn" href="../../contact.html">Kontak</a>
+                    </div>
+                    <div class="col-md-2" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-duration="1000" data-aos-delay="500">
+                        <a class="btn" href="../../blog/pembayaran.html">Transaksi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Call to Action End -->
+
+
+        <!-- Footer Start -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="footer-about">
+                            <h2>Hubungi Kami</h2>
+                            <p>
+                                SHOPHOUSE adalah penyedia layanan jasa pembuatan website, aplikasi mobile, branding & konten kreatif, 
+                                yang telah dipercaya oleh banyak usaha, baik produk/jasa. Kepuasan pelanggan adalah prioritas utama kami. 
+                                Jaminan kedisiplinan, kualitas, jujur, adalah target utama kami.
+                            </p>
+                            <br>
+                            <p><a href="https://goo.gl/maps/ydgnHXQ48MMUA87N6" target="blank" class="map"><i class="fa fa-map-marker-alt"></i></a>Jln. Sunan Ampel RT. 002 
+                                RW. 005 Ds. Doko Kec. Doko Kab. Blitar, Prov. Jawa Timur, Indonesia - 66186</p>
+                            <p><a href="https://goo.gl/maps/9DUTLmyz99pD9PLG6" target="blank" class="map"><i class="fa fa-map-marker-alt"></i></a>Ds. Sentang Kec. Blangkejeren 
+                                Kab. Gayo Lues, Prov. Aceh, Indonesia - 24653</p>
+                            <p><a href="tel:+62 81227648127"><i class="fa fa-phone-alt"></i></a>+6281227648127</p>
+                            <p><a href="mailto:shophousenew@gmail.com?subject=Hallo%20Admin%20SHOPHOUSE" target="_blank"><i class="fa fa-envelope"></i></a>shophousenew@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="footer-link">
+                                    <h2>Layanan Kami</h2>
+                                    <a href="../../layanan/website.html">Website</a>
+                                    <a href="../../layanan/e-commerce.html">E-Commerce</a>
+                                    <a href="../../layanan/logo.html">Brand & Logo</a>
+                                    <a href="../kaligrafi.html">Kaligrafi</a>
+                                    <a href="../lukisan.html">Lukisan</a>
+                                    <a href="../tembakau.html">Tembakau</a>
+                                    <a href="../kopi.html">Kopi Gayo</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="footer-link">
+                                    <h2>Informasi</h2>
+                                    <a href="../../blog/mitra.html">Mitra dan Klien</a>
+                                    <a href="../../blog/pembayaran.html">Pembayaran</a>
+                                    <a href="../../bantuan/faq.html">FAQs</a>
+                                    <a href="../../bantuan/syarat.html">Syarat dan Ketentuan</a>
+                                    <a href="../../bantuan/perjanjian.html">Perjanjian Umum</a>
+                                    <a href="../../bantuan/privasi.html">Kebijakan Privasi</a>
+                                    <a href="../../bantuan/kebijakan.html">Kebijakan Penggunaan Layanan</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container copyright">
+                <div class="row">
+                    <div class="col-md-6 hubungi">
+                        <p>
+                            <a href="https://api.whatsapp.com/send?phone=+6281267913418&text=Hallo%20Admin%20SHOPHOUSE" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                            <a href="https://www.instagram.com/shop_house.app/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://web.facebook.com/people/shophouse/100086976440125/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://tokopedia.com/shophouseapp/" target="_blank"><i class="fa fa-shopping-bag"></i></a>
+                            <a href="https://blibli.app.link/0AntZEyEGub" target="_blank"><i class="fa fa-shopping-basket"></i></a>
+                            <a href="https://shopee.co.id/shophouseapp" target="_blank"><i class="fa fa-shopping-cart"></i></a>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>&copy; <a href="https://ramadhanadm.my.id" target="_blank">SHOPHOUSE.</a> All Right Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="../../../lib/slick/slick.min.js"></script>
+    <script src="../../../lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="../../../lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+        });
+    </script>
+
+    <!-- Jquery Load More -->
+    <!-- <script>
+        let loadMoreBtn = document.querySelector('#load-more');
+        let currentItem = 3;
+
+        loadMoreBtn.onclick = () =>{
+        let boxes = [...document.querySelectorAll('.testimoni .item-testimoni .page-testimoni')];
+        for (var i = currentItem; i < currentItem + 3; i++){
+            boxes[i].style.display = 'inline-block';
+        }
+        currentItem += 3;
+
+        if(currentItem >= boxes.length){
+            loadMoreBtn.style.display = 'none';
+        }
+        }
+    </script> -->
+
+    <!-- Template Javascript -->
+    <script src="../../../js/main.js"></script>
+</body>
+</html>

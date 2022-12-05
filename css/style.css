@@ -1612,38 +1612,6 @@ a:focus {
     text-decoration: none;
 }
 
-/* .portfolio-item {
-    display: none;
-} */
-
-/* .portfolio-container .portfolio-item:nth-child(n+5) {
-    display: none;
-} */
-
-/* .portfolio-item {
-    display: none;
-}
-
-.portfolio-item:nth-child(1) {
-    display: inline-block;
-}
-
-.portfolio-item:nth-child(2) {
-    display: inline-block;
-}
-
-.portfolio-item:nth-child(3) {
-    display: inline-block;
-}
-
-.portfolio-item:nth-child(4) {
-    display: inline-block;
-}
-
-.portfolio-item:nth-child(5) {
-    display: inline-block;
-} */
-
 
 /*******************************/
 /********* Contact CSS *********/
@@ -2041,6 +2009,49 @@ a:focus {
 .umum {
     margin-top: 10px;
     font-size: 14px;
+}
+
+/* halaman rincian produk(atas) */
+.rincian-produk {
+    font-weight: bold;
+    font-size: 24px;
+}
+.rincian {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.rinci {
+    font-weight: bold;
+}
+
+/* halaman harga */
+
+
+/* halaman detail produk(bawah) */
+.detail-produk {
+    margin-top: 40px;
+}
+.detail-produk h5 {
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: -12px;
+}
+
+/* halaman tab-konten produk */
+.tab-content h4 {
+    text-align: center;
+    font-weight: bold;
+}
+.tab-content {
+    text-align: left;
+}
+.tab-content ul a {
+    color: #000000;
+    font-weight: bold;
 }
 
 

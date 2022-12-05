@@ -94,6 +94,48 @@
             </div>
             <!-- Header End -->
 
+            <!-- Page Keranjang Total Harga -->
+            <div class="row col-md-8 justify-content-center">
+                <div class="table-responsive">
+                    <table class="table" id="harga">
+                        <thead>
+                            <tr>
+                                <th>Ukuran Kemasan</th>
+                                <th>Jumlah</th>
+                                <th>Harga</th>
+                                <th class="text-right"><span id="amount" class="amount"> Total</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p>100 gram</p>
+                                </td>
+                                <td>
+                                    <div class="button-container">
+                                        <button class="cart-qty-minus" type="button" value="-">-</button>
+                                        <input type="text" name="qty" min="0" class="qty form-control" value="0" />
+                                        <button class="cart-qty-plus" type="button" value="+">+</button>
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="text" value="Rp. 30.000" class="price form-control" disabled>
+                                </td>
+                                <td align="right">Rp. <span id="amount" class="amount">0</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3"></td>
+                                <td align="right">
+                                    <strong>TOTAL = Rp. <span id="total" class="total">0</span></strong>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
 
             <!-- Page Header Start -->
             <div class="page-header">
