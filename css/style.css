@@ -2054,6 +2054,11 @@ a:focus {
     font-weight: bold;
 }
 
+/* halaman website */
+.web {
+    background-color: #F7F7F7;
+}
+
 
 @media (max-width: 768px) {
     .pembayaran {
